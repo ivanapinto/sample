@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessible Page</title>
+    <!-- Link to Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/85fcd473c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<ol>		
+    <li>Vegetables</li>	
+    <li>Fruit
+       <ul>				
+          <li>Blueberries</li>
+	  <li>Bananas</li>
+       </ul>
+    </li>
+</ol>
+
+
+
+	
+	<h1> Finally an accessible page! </h1>
+	
+	<i class="fa-brands fa-accessible-icon fa-3x"></i>
+	<h2> Resources </h2>
+	<a href="https://dequeuniversity.com/checklists/web/"> Deque Accessibility Checklist </a>
+	<a href="https://dequeuniversity.com/checklists/web/"> Deque Accessibility Checklist </a>
+
+	<h2> Using Semantic Tags</h2>
+	<p>On my page, I try to stay away from generic block tags, such as SPAN and DIV and use semantic tags instead - header, nav, footer, figure
+	Use containers as article, aside, section, main to put like minded code together
+	<hr> HR is a horizontal line with a semantic meaning
+Address element indicates that this is an address
+   <address> 125 Bernal Road, San Jose, CA 95119</address>
+   <blackquote> Use blackquote element for a quote </blackquote>
+   <details> Details element is used together with the summary tag. </details>
+    <figure>
+    <img src="DequeTree.png" width="20%" alt = "Deque Logo alt text"> <figcaption>Deque logo caption</figcaption>
+    </figure>
+
+    <h2>Video</h2>
+    <video src = "" width = "400" controls>
+    	Your browser does not support the <code> video </code>code> element
+    </video>
+
+    <h2> Audio </h2>
+    <audio src = "" controls> My audio </audio>
+
+    <h2> Table </h2>
+    <table border = "1">
+    	<strong> Bold Text as Table Heading - bad practice</strong>
+    	<!--use semantic heading tags -->
+    	<tr><th>Row One</th> <th>Row Two</th> <th>Row Three</th></tr>
+    	<tr><td>One</td> <td>Two</td> <td>Three</td></tr>
+    	<tr><td>Four</td> <td>Five</td> <td>Six</td></tr>
+    </table>
+
+<footer></footer>
+</body>
+</html>
